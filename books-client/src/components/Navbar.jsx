@@ -33,6 +33,7 @@ const Navbar = () => {
   const navItems = [
     { link: "Home", path: "/" },
     { link: "About", path: "/about" },
+    { link: "Library", path: "/library" },
     { link: "Sell your Book", path: "/admin/dashboard" },
     { link: "Blog", path: "/blog" },
   ];
@@ -59,7 +60,7 @@ const Navbar = () => {
               <Link
                 key={path}
                 to={path}
-                className="block text-base text-black uppercase cursor-pointer hover:text-blue-700 "
+                className="block text-base text-black  cursor-pointer hover:text-blue-700 "
               >
                 {link}
               </Link>
