@@ -34,7 +34,7 @@ const Navbar = () => {
     { link: "Home", path: "/" },
     { link: "About", path: "/about" },
     { link: "Library", path: "/library" },
-    { link: "Sell your Book", path: "/admin/dashboard" },
+    { link: "Admin", path: "/admin/dashboard" },
     { link: "Blog", path: "/blog" },
   ];
   return (
